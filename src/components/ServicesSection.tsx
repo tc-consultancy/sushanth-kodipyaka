@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const ServicesSection = () => {
   return (
-    <section className="w-full bg-white py-12 md:py-20">
+    <section id="services" className="w-full bg-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Section Header */}
         <motion.div

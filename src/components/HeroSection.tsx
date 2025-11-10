@@ -75,21 +75,23 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 mb-16"
           >
-            <a 
-              href="https://www.linkedin.com/in/sushanth-kodipyaka" 
-              target="_blank" 
-              rel="noopener noreferrer"
+            <button 
+              onClick={() => {
+                const section = document.querySelector('#services');
+                section?.scrollIntoView({ behavior: 'smooth' });
+              }}
               className="bg-black text-base text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-all duration-200 font-medium flex items-center justify-center gap-2"
             >
-              <span>View My Projects</span>
+              <span>View My Work</span>
               <span className="text-lg">↗</span>
-            </a>
+            </button>
             <a 
-              href="mailto:sushanth.kodipyaka@gmail.com"
+              href="/resume.pdf"
+              download
               className="border border-gray-300 text-gray-700 px-6 py-3 rounded-full hover:bg-white hover:shadow-sm transition-all duration-200 font-medium flex items-center justify-center gap-2"
             >
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-              Available for Hire
+              <span>Download Resume</span>
+              <span className="text-lg">↓</span>
             </a>
           </motion.div>
         </div>
