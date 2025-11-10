@@ -4,8 +4,8 @@ const ContactSection = () => {
       <div className="max-w-7xl mx-auto text-center px-8 py-16 md:py-20">
         <div className="mb-12">
           <div className="w-16 h-16 mx-auto mb-8 bg-white rounded-full flex items-center justify-center">
-            <svg className="w-8 h-8 text-gray-600" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H16c-.8 0-1.54.37-2.01 1l-2.54 3.51 1.41 1.41L14.5 11h.5v9H16v2h4z" />
+            <svg className="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
           </div>
         </div>
